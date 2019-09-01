@@ -1,0 +1,14 @@
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\bin\Debug\PlayingWithFiles.exe.config
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\bin\Debug\PlayingWithFiles.exe
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\bin\Debug\PlayingWithFiles.pdb
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\obj\Debug\PlayingWithFiles.csprojAssemblyReference.cache
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\obj\Debug\PlayingWithFiles.csproj.CoreCompileInputs.cache
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\obj\Debug\PlayingWithFiles.exe
+C:\Users\kaioteles\source\repos\PlayingWithFiles\PlayingWithFiles\obj\Debug\PlayingWithFiles.pdb
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\bin\Debug\PlayingWithFiles.exe.config
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\bin\Debug\PlayingWithFiles.exe
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\bin\Debug\PlayingWithFiles.pdb
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\obj\Debug\PlayingWithFiles.csprojAssemblyReference.cache
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\obj\Debug\PlayingWithFiles.csproj.CoreCompileInputs.cache
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\obj\Debug\PlayingWithFiles.exe
+C:\Users\kaioteles\source\repos\PlayingWithFilesInCSharp\PlayingWithFiles\obj\Debug\PlayingWithFiles.pdb
