@@ -7,19 +7,18 @@ namespace PlayingWithFiles
     {
         static void Main(string[] args)
         {
-            string path = @"C:\temp\file1.txt";
+            string sourcePath = @"C:\temp\file1.txt";
+            string targetPath = @"C:\temp\file2.txt";
 
             try
             {
-                using (FileStream fs = new FileStream(path, FileMode.Open))
+                string[] lines = File.ReadAllLines(sourcePath);
+
+                using (StreamWriter sw = File.AppendText(targetPath))
                 {
-                    using (StreamReader sr = new StreamReader(fs))
+                   foreach(string line in lines)
                     {
-                        while (!sr.EndOfStream)
-                        {
-                            string line = sr.ReadLine();
-                            Console.WriteLine(line);
-                        }
+                        sw.WriteLine(line.ToUpper());
                     }
                 }
             }
