@@ -11,12 +11,16 @@ namespace PlayingWithFiles
             StreamReader sr = null;
 
             try
-            {                
-                sr = new StreamReader( new FileStream(path, FileMode.Open)); // Instaciando dentro do StreamReader o FileStream
-                string line = sr.ReadLine();
-                Console.WriteLine(line);
+            {
+                sr = File.OpenText(path);
+                //Percorre todo o arquivo até o final dele
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    Console.WriteLine(line);
+                }
             }
-            catch(IOException e)
+            catch (IOException e)
             {
                 Console.WriteLine("An error occurred!");
                 Console.WriteLine(e.Message);
@@ -24,7 +28,7 @@ namespace PlayingWithFiles
             finally
             {
                 if (sr != null) sr.Close();
-                
+
             }
         }
     }
