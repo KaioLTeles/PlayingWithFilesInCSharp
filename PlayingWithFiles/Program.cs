@@ -7,20 +7,28 @@ namespace PlayingWithFiles
     {
         static void Main(string[] args)
         {
-            string sourcePath = @"C:\temp\file1.txt";
-            string targetPath = @"C:\temp\file2.txt";
+            string path = @"C:\temp\test";
+            
 
             try
             {
-                string[] lines = File.ReadAllLines(sourcePath);
-
-                using (StreamWriter sw = File.AppendText(targetPath))
+                //C# está fazendo a inferncia do tipo da variavel
+                var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("FOLDERS:");
+                foreach(string s in folders)
                 {
-                   foreach(string line in lines)
-                    {
-                        sw.WriteLine(line.ToUpper());
-                    }
+                    Console.WriteLine(s);
                 }
+
+                //C# está fazendo a inferncia do tipo da variavel
+                var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("FILES:");
+                foreach (string f in files)
+                {
+                    Console.WriteLine(f);
+                }
+
+                Directory.CreateDirectory(path + @"\models");
             }
             catch(IOException e)
             {
